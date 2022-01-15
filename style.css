@@ -1,0 +1,67 @@
+h2{
+    padding:50px;
+    margin-top: 60px;
+}
+.top{
+    display: flex;
+    padding: 50px;
+    align-items: center;
+}
+.top .half-display{
+    width: 50%;
+}
+.top .half-display img{
+    width: 70%;
+    padding:40px;
+}
+
+.top .half-display a{
+    text-decoration: none;
+background-color: rgb(196, 5, 37);
+padding: 10px 10px;
+border-radius: 20px;
+color: cornsilk;
+}
+
+/* Popular collection */
+
+
+.mid-header{
+    text-align: center;
+}
+.middle-part{
+    padding: 50px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    align-items: center;
+    margin-left: 100px;
+    grid-column-gap: 20px;
+    grid-row-gap: 30px;
+}
+
+.fas .fa-star{
+    font-size: 12px;
+}
+.middle-blog .raiting{
+    color: rgb(255, 200, 60);
+}
+.product-info{
+    display: flex;
+    align-items: center;
+}
+.middle-blog{
+    border: 5px solid whitesmoke;
+    padding: 20px;
+    box-shadow: 10px 10px 40px rgb(228, 218, 215);
+    width: 82%;
+    border-image-slice: 1;
+    border-radius: 10px;
+}
+.middle-blog{
+
+}
+section a{
+    text-decoration: none;
+    padding-left: 50px;
+    text-align: center;
+}
