@@ -1,12 +1,19 @@
 body{
     margin: 0%;
+    font-family: 'Domine', serif;
+
+
+
+
+
+
 }
 h2{
     padding:30px;
 }
 .top{
     display: flex;
-    padding: 200px;
+    padding: 100px;
     align-items: center;
     margin-top: -200px;
 }
@@ -20,11 +27,11 @@ h2{
 
 .top .half-display .top-link{
     text-decoration: none;
-
     background-color: rgb(196, 5, 37);
     border-radius: 10px;
     color: cornsilk;
-    margin-left: 5px;
+    margin-left:5px;
+    border-width: 10px;
 }
 
 /* Popular collection */
