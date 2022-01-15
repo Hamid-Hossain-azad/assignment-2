@@ -8,8 +8,22 @@ body{
 
 
 }
+menu ul{
+    float: right;
+    margin-right: 30px;
+}
+menu ul li{
+    list-style-type: none;
+    display: inline-block;
+    
+}
+menu ul li a{
+    text-decoration: none;
+    color: black;
+    padding: 30px;
+}
 h2{
-    padding:30px;
+    padding:70px;
     font-size: 40px;
 }
 .top{
@@ -148,6 +162,30 @@ footer{
         width:220px
     }
 }
-.link{
+.link , menu ul li a{
     display: none;
+}
+@media only screen and (min-width:688px) and (max-width:992){
+    .top{
+        width: 100%;
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .top .half-display img{
+        padding: 0px;
+        width:100%}
+
+    .middle-part{
+        grid-template-columns: repeat(2, 1fr);
+        padding: 0px;
+        margin-left: 0px;
+        grid-column-gap: 0px;
+    }
+        footer{
+            padding: 0px;
+        }
+        .last img{
+            padding: 0px;
+            margin-top: 30px;
+            width:220px
+        }
 }
