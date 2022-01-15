@@ -84,6 +84,7 @@ section a{
 }
 .last-sec .last{
     width: 50%;
+    font-size: 18px;
 }
 .last .link-tag{
     text-decoration: none;
@@ -93,9 +94,9 @@ section a{
    color: seashell;
 }
 .last img{
-    width: 300px;
-   padding: 100px 0px 0px 180px;
-   margin-top: -80px;
+    width: 400px;
+   padding: 100px 0px 0px 120px;
+   margin-top: -100px;
 }
 footer{
     text-align: center;
