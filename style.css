@@ -10,6 +10,7 @@ body{
 }
 h2{
     padding:30px;
+    font-size: 40px;
 }
 .top{
     display: flex;
@@ -117,8 +118,36 @@ footer{
 @media only screen and (max-width:688px) {
    .top{
        width: 100%;
-   } 
+       flex-direction: column;
+       margin-top: 0px;
+       padding: 10px;
+       transition: width 1s;
+       transform-style: flat;
+       grid-template-columns: repeat(1, 1fr);
+
+   }
+   .top .half-display img{
+       padding: 0px;
+       width:100%
+   }
+   .middle-part{
+       grid-template-columns: repeat(1, 1fr);
+       padding: 0px;
+       margin-left: 0px;
+   }
+   .last-sec {
+    flex-direction: column;
+    padding: 0px;
+    }
+    footer{
+        padding: 0px;
+    }
+    .last img{
+        padding: 0px;
+        margin-top: 30px;
+        width:220px
+    }
 }
-/* .last-sec, .middle-part {
+.link{
     display: none;
-} */
+}
