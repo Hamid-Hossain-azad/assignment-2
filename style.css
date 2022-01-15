@@ -23,6 +23,14 @@ h2{
 .top .half-display img{
     width: 70%;
     padding:40px 0px 0px 200px;
+    transform-style: preserve-3d;
+    transform: rotate(360deg);
+    transition: width 2s;
+}
+.top .half-display img:hover{
+    width: 500px;
+    transform: rotate(180deg);
+
 }
 
 .top .half-display .top-link{
@@ -73,7 +81,7 @@ h2{
 }
 section a{
     text-decoration: none;
-    padding-left: 50px;
+    /* padding-left: 50px; */
     text-align: center;
     margin-left: 1140px;
 }
@@ -106,3 +114,11 @@ footer{
     padding: 30px;
     background-color: black;
 }
+@media only screen and (max-width:688px) {
+   .top{
+       width: 100%;
+   } 
+}
+/* .last-sec, .middle-part {
+    display: none;
+} */
