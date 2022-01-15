@@ -1,26 +1,27 @@
 h2{
-    padding:50px;
-    margin-top: 60px;
+    padding:30px;
 }
 .top{
     display: flex;
-    padding: 50px;
+    padding: 200px;
     align-items: center;
+    margin-top: -200px;
 }
 .top .half-display{
     width: 50%;
 }
 .top .half-display img{
     width: 70%;
-    padding:40px;
+    padding:40px 0px 0px 200px;
 }
 
-.top .half-display a{
+.top .half-display .top-link{
     text-decoration: none;
-background-color: rgb(196, 5, 37);
-padding: 10px 10px;
-border-radius: 20px;
-color: cornsilk;
+
+    background-color: rgb(196, 5, 37);
+    border-radius: 10px;
+    color: cornsilk;
+    margin-left: 5px;
 }
 
 /* Popular collection */
@@ -64,4 +65,26 @@ section a{
     text-decoration: none;
     padding-left: 50px;
     text-align: center;
+    margin-left: 1140px;
+}
+.last-sec{
+    display: flex;
+    padding: 100px;
+    align-items: center;
+}
+.last-sec .last{
+    width: 50%;
+}
+.last .link-tag{
+    text-decoration: none;
+    background-color:rgb(241, 44, 110) ;
+    padding: 10px 10px;
+    border-radius: 5px;
+   margin-left: 0px;
+   color: seashell;
+}
+.last img{
+    width: 300px;
+   padding: 100px 0px 0px 180px;
+   margin-top: -80px;
 }
