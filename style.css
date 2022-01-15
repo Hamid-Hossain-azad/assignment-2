@@ -185,6 +185,7 @@ footer{
             padding: 0px;
         }
         .last img{
+            flex-direction: column;
             padding: 0px;
             margin-top: 30px;
             width:220px
