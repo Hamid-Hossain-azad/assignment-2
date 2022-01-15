@@ -162,10 +162,10 @@ footer{
         width:220px
     }
 }
-.link , menu ul li a{
+.link {
     display: none;
 }
-@media only screen and (min-width:688px) and (max-width:992){
+@media only screen and (min-width:700px) and (max-width:992){
     .top{
         width: 100%;
         grid-template-columns: repeat(2, 1fr);
@@ -174,7 +174,7 @@ footer{
         padding: 0px;
         width:100%}
 
-    .middle-part{
+    .middle-part .middle-blog{
         grid-template-columns: repeat(2, 1fr);
         padding: 0px;
         margin-left: 0px;
